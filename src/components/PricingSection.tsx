@@ -20,8 +20,8 @@ const pricingPlans = [
   },
   {
     name: "Pro",
-    price: "$9",
-    period: "per year",
+    price: "$5",
+    period: "per month",
     description: "For creators and professionals",
     features: [
       "3 sites",
@@ -37,7 +37,7 @@ const pricingPlans = [
   },
   {
     name: "Pro Plus",
-    price: "$19",
+    price: "$12",
     period: "per year",
     description: "For businesses and teams",
     features: [
