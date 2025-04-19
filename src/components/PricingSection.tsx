@@ -24,7 +24,7 @@ const pricingPlans = [
     period: "per month",
     description: "For creators and professionals",
     features: [
-      "3 sites",
+      "10 sites",
       "Custom domain",
       "Advanced elements",
       "Forms & embeds",
@@ -38,10 +38,10 @@ const pricingPlans = [
   {
     name: "Pro Plus",
     price: "$12",
-    period: "per year",
+    period: "per month",
     description: "For businesses and teams",
     features: [
-      "10 sites",
+      " 27 sites",
       "Multiple custom domains",
       "All Pro features",
       "Form submissions (100/mo)",
