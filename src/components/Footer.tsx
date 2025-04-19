@@ -20,13 +20,13 @@ const Footer = () => {
         { name: "Blog", href: "#" },
         { name: "Community", href: "#" },
         { name: "Tutorials", href: "#" },
-        { name: "services", href: "#" },
       ],
     },
     {
       title: "Company",
       links: [
         { name: "About", href: "#" },
+        { name: "services", href: "#" },
         { name: "Contact", href: "#" },
         { name: "Privacy", href: "#" },
         { name: "Terms", href: "#" },
