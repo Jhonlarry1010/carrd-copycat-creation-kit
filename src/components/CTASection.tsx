@@ -17,7 +17,7 @@ const CTASection = () => {
             <Button className="bg-white text-carrd-purple hover:bg-gray-100 text-lg px-6 py-6 h-auto">
               Create Your Site
             </Button>
-            <Button variant="outline" className="text-white border-white hover:bg-white/10 text-lg px-6 py-6 h-auto group">
+            <Button variant="outline" className="text-blue-500 border-white hover:bg-white/10 text-lg px-6 py-6 h-auto group">
               View Examples
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={18} />
             </Button>
