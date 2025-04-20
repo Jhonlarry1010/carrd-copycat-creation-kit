@@ -41,7 +41,7 @@ const pricingPlans = [
     period: "per month",
     description: "For businesses and teams",
     features: [
-      " 27 sites",
+      "27 sites",
       "Multiple custom domains",
       "All Pro features",
       "Form submissions (100/mo)",
@@ -50,6 +50,40 @@ const pricingPlans = [
       "Priority support"
     ],
     cta: "Get Pro Plus",
+    highlighted: false
+  },
+  {
+    name: "Enterprise",
+    price: "$25",
+    period: "per month",
+    description: "For growing businesses",
+    features: [
+      "Unlimited sites",
+      "Unlimited custom domains",
+      "Advanced analytics",
+      "Dedicated support",
+      "Team collaboration",
+      "White-labeling",
+      "API access"
+    ],
+    cta: "Contact Sales",
+    highlighted: false
+  },
+  {
+    name: "Ultimate",
+    price: "$40",
+    period: "per month",
+    description: "For large organizations",
+    features: [
+      "Unlimited enterprise sites",
+      "Unlimited custom domains",
+      "Advanced security",
+      "Premium support",
+      "Compliance features",
+      "Single sign-on (SSO)",
+      "Custom integrations"
+    ],
+    cta: "Speak with Expert",
     highlighted: false
   }
 ];
@@ -65,7 +99,7 @@ const PricingSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 lg:gap-8">
           {pricingPlans.map((plan, index) => (
             <div 
               key={index} 
